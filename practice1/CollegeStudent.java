@@ -17,6 +17,12 @@ public class CollegeStudent extends Student {
         this.gpa = gpa;
     }
 
+    @Override
+    public void study() {
+        super.study();
+        System.out.println(" and has finals coming up!");
+    }
+
     public double getGpa() {
         return gpa;
     }

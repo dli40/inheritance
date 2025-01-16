@@ -10,6 +10,10 @@ public class Student {
         name = "default name";
     }
 
+    public void study() {
+        System.out.println(name + " is studying!");
+    }
+
     public Student(int id, String name) {
         this.id = id;
         this.name = name;
